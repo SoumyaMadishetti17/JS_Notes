@@ -28,11 +28,21 @@ if(res>100){
 }
 
 //q4
-let n = 5; 
-for (let i = 1; i <= n; i++) {
+let r = 5; 
+for (let i = 1; i <= r; i++) {
     let row = '';
     for (let j = 1; j <= i; j++) {
         row += '*';
     }
     console.log(row);
+}
+
+// q5
+let n = 5;
+for (let i = 1; i <= n; i++) {
+    let row = '';
+    for (let j = 1; j <= i; j++) {
+        row += j + ' ';
+    }
+    console.log(row.trim());
 }
