@@ -14,3 +14,15 @@ console.log(num1/num2);//1
 console.log(num1==num2);//true
 console.log(num1===num2);//true
 console.log(num1%num2);//0
+
+
+//q3
+let numval=42
+let strval='42'
+console.log(numval+strval);//4242
+res=numval+strval
+if(res>100){
+    console.log('great than 100');
+}else{
+    console.log('no');
+}
